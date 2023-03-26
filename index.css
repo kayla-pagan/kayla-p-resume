@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-#email-header, #logo-and-title {
+header, #logo-and-title {
     display: flex;
     align-items: center;
 }
@@ -13,7 +13,7 @@ body {
     gap: 2px;
 }
 
-#email-header img {
+header img {
     width: 60px;
     height: 60px;
 }
@@ -70,16 +70,11 @@ h2,
     color: #979dac;
 }
 
-mark {
-    background-color: #90caf980;
-    border-radius: 5px;
-}
-
 #main-area {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 5px;
+    margin-top: 50px;
 }
 
 #skills-container {
@@ -96,6 +91,10 @@ h2 {
     font-size: 20px;
     font-weight: 200;
     text-align: center;
+}
+
+h2:hover {
+    box-shadow: 0 0 3px #33415c;
 }
 
 #skills-list, #contact-info {
@@ -117,6 +116,7 @@ h2 {
     color: #33415c;
 }
 
+#logo-and-title,
 #skills-list li:hover, 
 input[type="checkbox"], 
 #icons svg:hover, 
@@ -235,4 +235,9 @@ input[type="checkbox"] {
 
 .degree-and-certs:hover {
     background-color: #90caf9;
+}
+
+.highlight, mark {
+    background-color: #90caf980;
+    border-radius: 2px;
 }

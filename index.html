@@ -11,16 +11,14 @@
 
     <body>
         <header>
-            <div id="email-header">
                 <div id="logo-and-title">
                     <img src="imgs/mail-icon.png" alt="white envelope inside blue circle">
                     <h1>Kayla Pagan<span>Frontend Developer</span></h1>
                 </div>
                 <label id="search-label">
-                    <input oninput="searchText()" id="search" type="text" placeholder="Search Resume">
+                    <input id="search" type="search" placeholder="Search Resume" autocomplete="off">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" /></svg>   
                 </label>
-            </div>
         </header>   
 
         <section>
@@ -60,25 +58,25 @@
                     </div>
                     <div class="inbox-item">
                         <input type="checkbox" class="inbox-checkboxes" id="bootcamp" name="inbox-choices">
-                        <label for="bootcamp">The Odin Project/Scrimba's Frontend Developer Career Path (October 2022-Current)</label>
+                        <label for="bootcamp" class="searchable">The Odin Project/Scrimba's Frontend Developer Career Path (October 2022-Current)</label>
                         <ul>
-                            <li>Coded using HTML, CSS and JavaScript to develop features for both mobile and desktop platforms.</li>
-                            <li>Translated user-centric designs from Figma into code.</li>
-                            <li>Conceived and built optimized landing pages in HTML and CSS for integration and cross-browser compatibility.</li>
-                            <li>Documented project changes to Git/Github for future reference and use.</li>
-                            <li>Utilized Chrome Dev Tools for testing and debugging.</li>
+                            <li class="searchable">Coded using HTML, CSS and JavaScript to develop features for both mobile and desktop platforms.</li>
+                            <li class="searchable">Translated user-centric designs from Figma into code.</li>
+                            <li class="searchable">Conceived and built optimized landing pages in HTML and CSS for integration and cross-browser compatibility.</li>
+                            <li class="searchable">Documented project changes to Git/Github for future reference and use.</li>
+                            <li class="searchable">Utilized Chrome Dev Tools for testing and debugging.</li>
                         </ul>
                     </div>
 
                     <div class="inbox-item">
                         <input type="checkbox" class="inbox-checkboxes" id="mortgage" name="inbox-choices">
-                        <label for="mortgage">Mortgage Loan Originator (September 2020-Current)</label>
+                        <label for="mortgage" class="searchable">Mortgage Loan Originator (September 2020-Current)</label>
                         <ul>
-                            <li>Developed and implemented marketing campaigns to generate new business opportunities.</li>
-                            <li>Resolved discrepancies between borrowers, lenders and financial institutions with detail orientation and efficiency.</li>
-                            <li>Updated borrowers through each step of loan application, approval and closing processes while remaining attentive to customer needs.</li>
-                            <li>Collected information from banks, institutions and employers to assess applicant eligibility.</li>
-                            <li>Analyzed loan applications and credit reports to determine loan eligibility and risk level.</li>
+                            <li class="searchable">Developed and implemented marketing campaigns to generate new business opportunities.</li>
+                            <li class="searchable">Resolved discrepancies between borrowers, lenders and financial institutions with detail orientation and efficiency.</li>
+                            <li class="searchable">Updated borrowers through each step of loan application, approval and closing processes while remaining attentive to customer needs.</li>
+                            <li class="searchable">Collected information from banks, institutions and employers to assess applicant eligibility.</li>
+                            <li class="searchable">Analyzed loan applications and credit reports to determine loan eligibility and risk level.</li>
                         </ul>
                     </div>
 
