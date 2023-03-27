@@ -10,22 +10,22 @@
     </head>
 
     <body>
-        <header>
-                <div id="logo-and-title">
+        <header class="flex align-center">
+                <div class="logo-and-title flex align-center">
                     <img src="imgs/mail-icon.png" alt="white envelope inside blue circle">
                     <h1>Kayla Pagan<span>Frontend Developer</span></h1>
                 </div>
-                <label id="search-label">
+                <label class="search-label">
                     <input id="search" type="search" placeholder="Search Resume" autocomplete="off">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" /></svg>   
                 </label>
         </header>   
 
         <section>
-            <div id="main-area">
-                <div id="skills-container">
+            <div class="flex main-area">
+                <div class="skills-container flex">
                     <h2>Skills</h2>
-                    <ul id="skills-list">
+                    <ul class="skills-list">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
@@ -39,7 +39,7 @@
                         <li>Eager to Learn</li>
                         <li>Teamwork</li>
                     </ul>
-                    <ul id="contact-info">
+                    <ul class="contact-info">
                         <li><mark>Phone Number</mark>: <a href="tel:4078667114">407-866-7114</a></li>
                         <li><mark>Email</mark>: <a href="mailto:kaylapagan@gmail.com">kaylapagan@gmail.com</a></li>
                         <li><mark>Github</mark>: <a href="https://github.com/kayla-pagan" target="_blank">github.com/kayla-pagan</a></li>
@@ -47,9 +47,9 @@
                     </ul>
                 </div>
     
-                <div id="inbox-history">
-                    <div id="top-of-inbox">
-                        <div id="icons">
+                <div class="inbox-history">
+                    <div class="top-of-inbox flex">
+                        <div class="icons-container flex align-center">
                             <input class="top-of-inbox-icons" id="select-all" type="checkbox" name="inbox-choices">
                             <svg class="top-of-inbox-icons" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" /></svg>
                             <svg class="top-of-inbox-icons" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" /></svg>                            
@@ -81,8 +81,8 @@
                     </div>
 
                     <div>
-                        <h4 id="degrees-and-certs-title">Degrees and Certifications</h4>
-                        <div id="degrees-and-certs-container">
+                        <h4 class="degrees-and-certs-title">Degrees and Certifications</h4>
+                        <div class="degrees-and-certs-container flex align-center">
                             <div class="degree-and-certs">
                                 <p>
                                     Professional Scrum Master I

@@ -27,6 +27,12 @@ selectAll.addEventListener('change',function(_){
     })
 })
 
+inboxCheckboxes.forEach(checkboxes => {
+    checkboxes.addEventListener('change', function () {
+        if (!this.checked && selectAll.checked) selectAll.checked = false
+    })
+})
+
 $search.addEventListener('input', (event) => {
     const searchText = event.target.value
     const regex = new RegExp(searchText, 'gi')
